@@ -33,7 +33,6 @@ public class CalculatorTestThorough {
     @Test
     public void multiplyTest(){
         Calculator myCalculator = new Calculator();
-
        for(int i = 0; i < 2000000000 ; i++){
            assertEquals(0 , myCalculator.multiply(0 , i));
        }
